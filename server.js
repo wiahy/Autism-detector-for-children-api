@@ -43,5 +43,5 @@ app.get('/getLocations/:id', function (req, res) {
 var server = app.listen(8080, function(){
     var host = server.address().address
     var port = server.address().port
-    console.log("Location API demo app listening at http://%s:%s", host, port)
+    console.log("Location API app is running and listening at http://[EXTERNAL-IP]:%s", port)
 })
